@@ -1,0 +1,521 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.perviiecran{
+    display: block;
+}
+
+.dva{
+    display: none;
+}
+
+
+.perviiecran{
+    display: flex;  
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 74vw;
+    background-color: rgba(186, 241, 55, 1);
+}
+
+.pe{
+    display: flex;  
+    justify-content: space-between;
+    width: 89.11vw;
+    height: 9.38vw;
+    margin-top: 4.17vw;
+}
+
+
+.t{
+    display: flex;
+    font-family: 'Peace_sans';
+    font-size: 3.33vw;
+    line-height: 4.5vw;
+    color:rgba(104, 54, 240, 1)
+}
+
+.perehod{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    width: 21.93vw;
+    height: 9.3vw;
+    border-radius: 1.35vw;
+    background-color: white;
+    border: none;
+}
+
+.rud{
+    display: flex;
+    font-family: 'Peace_sans';
+    font-size: 3.33vw;
+    color:rgba(104, 54, 240, 1)
+}
+
+.kartina{
+    display: flex;
+    width: 100vw;
+    height: 60.36vw;
+}
+
+
+.baackground{
+    background: url("../images/1925.svg");
+    position: absolute;
+    width: 100vw;
+    height: 210vw;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+
+
+.firstblock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 95vw;
+}
+
+.ftext{
+    display: flex;
+    text-align: center;
+    font-family: 'Peace_sans';
+    font-size: 3.33vw;
+    letter-spacing: 0.26vw;
+    margin-top: 3vw;
+    color:white
+}
+
+.kvadra{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3vw;
+    width: 79vw;
+    height: 55vw ;
+ 
+}
+
+.kva1, .kva2, .kva3, .kva4, .kva5, .kva6{
+    display: flex;
+    width: 24vw;
+    height: 24vw ;
+}
+
+
+.dvael{
+    display: flex;
+}
+
+.b1t{
+    display: flex;
+    justify-content: center;
+    width: 19.17vw;
+    height: 8.91vw ; 
+    border-radius: 1.35vw;
+    background-color: white;
+    border: none;
+    
+}
+
+.bt{
+    display: flex;
+    text-align: center;
+    margin-top: 1.7vw;
+    font-family: 'Peace_sans';
+    font-size: 3.33vw;
+    color:rgba(104, 54, 240, 1)
+}
+
+.secondblock{
+    display: flex;
+    margin-top: -25vw;
+    width: 100vw;
+    height: 80.16vw;
+    align-items: center;
+}
+
+.fon{
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    width: 100vw;
+    margin-top: -1vw;
+    height: 97.5vw;
+}
+
+.char1{
+    display: block;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    padding-left: 8.44vw;
+    width: 20.05vw;
+    height: 16.35vw;
+    margin-top: 40vw;
+}
+
+
+
+
+
+.char2{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    padding-left: 4vw;
+    width: 20.05vw;
+    height: 16.35vw;
+    margin-top: 60vw;
+}
+
+.char3{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    padding-left: 4vw;
+    width: 20.05vw;
+    height: 16.35vw;
+    margin-top: 77.2vw;
+}
+
+.char4{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    margin-top: 18.7vw;
+    padding-left: 20vw;
+    width: 20.05vw;
+    height: 16.35vw;
+}
+
+.char5{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    margin-top: 18.7vw;
+    padding-left: 30vw;
+    width: 20.05vw;
+    height: 16.35vw;
+}
+
+.char6{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    margin-top: 39vw;
+    padding-left: 20vw;
+    width: 20.05vw;
+    height: 16.35vw;
+}
+
+.char7{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    margin-top: 69vw;
+    padding-left: 18vw;
+    width: 20.05vw;
+    height: 16.35vw;
+}
+
+.char8{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    margin-top: 32vw;
+    padding-left: 35vw;
+    width: 20.05vw;
+    height: 16.35vw;
+}
+
+.char9{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    margin-top: 60vw;
+    padding-left: 25vw;
+    width: 20.05vw;
+    height: 16.35vw;
+}
+
+.char10{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    margin-top: 45vw;
+    padding-left: 42vw;
+    width: 20.05vw;
+    height: 16.35vw;
+}
+
+.char11{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    margin-top: 70vw;
+    padding-left: 40vw;
+    width: 20.05vw;
+    height: 16.35vw;
+}
+
+.char12{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    margin-top: 28vw;
+    padding-left: 59vw;
+    width: 20.05vw;
+    height: 16.35vw;
+}
+
+.char13{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    margin-top: 41vw;
+    padding-left: 67vw;
+    width: 20.05vw;
+    height: 16.35vw;
+}
+
+.char14{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    margin-top: 65vw;
+    padding-left: 65vw;
+    width: 20.05vw;
+    height: 16.35vw;
+}
+
+.char15{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    margin-top: 80vw;
+    padding-left: 55vw;
+    width: 20.05vw;
+    height: 16.35vw;
+}
+
+.char16{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    margin-top: 61vw;
+    padding-left: 80vw;
+    width: 20.05vw;
+    height: 16.35vw;
+}
+
+.char17{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    margin-top: 78vw;
+    padding-left: 80vw;
+    width: 20.05vw;
+    height: 16.35vw;
+}
+
+.char18{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    margin-top: 78vw;
+    padding-left: 24vw;
+    width: 20.05vw;
+    height: 16.35vw;
+}
+
+.char19{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    margin-top: 55vw;
+    padding-left: 37vw;
+    width: 20.05vw;
+    height: 16.35vw;
+}
+
+.char20{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    margin-top: 62vw;
+    padding-left: 54vw;
+    width: 20.05vw;
+    height: 16.35vw;
+}
+
+.char21{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    margin-top: 32vw;
+    padding-left: 75vw;
+    width: 20.05vw;
+    height: 16.35vw;
+}
+
+.char22{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    padding-left: 4vw;
+    width: 20.05vw;
+    height: 16.35vw;
+    margin-top: 26vw;
+}
+
+.char23{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    padding-left: 12vw;
+    width: 20.05vw;
+    height: 16.35vw;
+    margin-top: 52vw;
+}
+
+.thirdlock{
+    display: flex;
+    margin-top: 8.2vw;
+    width: 98vw;
+    height: 48.65vw;
+}
+
+.gorod{
+    display: flex;
+    position: absolute;
+    width: 98vw;
+    z-index: 1;
+    height: 48.65vw;
+}
+
+.lenivka{
+    display: flex;
+    position: absolute;
+    margin-left: 28vw;
+    margin-top: 2vw;
+    width: 7.9vw;
+    z-index: 3;
+    height: 8.02vw;
+}
+
+.pozdravil{
+    display: none;
+    position: absolute;
+    
+}
+.tik{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11.51vw;
+    margin-left: 59vw;
+    width: 14.01vw;
+    height: 8.91vw;
+    z-index: 2;
+    border-radius: 1.35vw;
+    background-color: white;
+    border: none;
+}
+
+.tak{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    z-index: 2;
+    font-family: 'Peace_sans';
+    font-size: 3.33vw;
+    color:rgba(104, 54, 240, 1)
+}
+
+.nadood{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    margin-left: 42vw;
+    margin-top: 3.33vw;
+    width: 40vw;
+    height: 5vw;
+
+}
+
+.ftfext{
+    display: flex;
+    z-index: 2;
+    font-family: 'Peace_sans';
+    font-size: 3.33vw;
+    letter-spacing: 0.26vw;
+    color:white
+}
+    
+
+.chetirilock{
+    display: flex;
+    width: 100vw;
+    height: 8.02vw;
+}
+
+.podval{
+    background-color: rgba(186, 241, 55, 1);
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    width: 100vw;
+    height: 8.02vw;
+}
+
+.logoo{
+    display: flex;
+    margin-top: 3.3vh;
+    justify-content: right; 
+    width: 12.19vw;
+    height: 0.63vw;
+}
+
+.log{
+    display: flex;
+    width: 12.19vw;
+    height: 5vw;
+}
+
+.avtor{
+    display: flex;
+    padding-left: 1.7vw;
+    font-family: 'Montserrat';
+    font-size: 1.45vw;
+    color:white
+}
+
+.te{
+    display: flex;
+    font-family: 'Montserrat';
+    margin-top: 3.3vh;
+    font-size: 1.45vw;
+    line-height: 2.2vw;
+    color:white
+}
+
+.tex{
+    display: flex;
+    margin-top: 5vh;
+    font-family: 'Montserrat';
+    justify-content: center;
+    padding-left: 22vw;
+    font-size: 1.45vw;
+    color:white
+}
+

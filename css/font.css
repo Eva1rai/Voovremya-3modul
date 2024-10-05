@@ -1,0 +1,13 @@
+@font-face{
+    font-family: 'Peace_sans';
+    src: url(../font/peace_sans.otf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url(../font/Montserrat.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
